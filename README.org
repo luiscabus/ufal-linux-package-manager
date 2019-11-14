@@ -1,0 +1,27 @@
+#+OPTIONS: ':nil *:t -:t ::t <:t H:3 \n:nil ^:t arch:headline
+#+OPTIONS: author:t broken-links:nil c:nil creator:nil
+#+OPTIONS: d:(not "LOGBOOK") date:t e:t email:nil f:t inline:t num:t
+#+OPTIONS: p:nil pri:nil prop:nil stat:t tags:t tasks:t tex:t
+#+OPTIONS: timestamp:t title:t toc:t todo:t |:t
+#+TITLE: mpu - minimal package utility
+#+DATE: <2019-03-26 Tue>
+#+AUTHOR: Matheus Artur and Luis Cabus
+#+EMAIL: macc@ic.ufal.br, lapcs@ic.ufal.br
+#+LANGUAGE: en
+#+SELECT_TAGS: export
+#+EXCLUDE_TAGS: noexport
+#+CREATOR: Emacs 26.1 (Org mode 9.1.9)
+
+
+* Info
+  A fully functional package manager written in python.
+
+** Development
+- [[./docs/todo.org][TODO list]]
+- [[./docs/package-hosting.org][Quick guide to package hosting]]
+
+* Contract
+- Development using python3 language
+- Document every function with comments (commits without detailed documentation will be removed)
+- By the end of the project, every member must maintain at least 20 (twenty) packages in the official repository
+- Minimize pushes into the master branch, use pull requests instead.
